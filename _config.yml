@@ -22,21 +22,20 @@ title: Hunge Labs
 email: tesseraskye@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   An open-source and colaboratively written specialty coffee wiki built with love by the community of James Hoffmann's discord.
-baseurl: "/"
-url: "https://github.com/hungelabs"
-#twitter_username:
+baseurl: ""
+url: "hungelabs.github.io"
+repository: "hungelabs/hungelabs.github.io"
+logo: "/assets/images/SproTransHigh.png"
 github_username:  hungelabs
-
-#More config:
 search: true
 og_image: /assets/images/SproDarkBKGSmall.png
+theme: minimal-mistakes-jekyll
 
 # Defaults
 defaults:
   #
 
 # Build settings
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
 minimal_mistakes_skin: "dark"
 

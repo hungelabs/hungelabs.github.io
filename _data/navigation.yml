@@ -1,0 +1,17 @@
+# main links
+main:
+  - title: "Getting Started"
+    url: /getting-started
+  - title: "Equipment"
+    description: "Tier lists, maintenence, discussion."
+  - title: "Knowledgebase"
+    description: "Guides, writeups, anything good to know."
+  - title: "Reaserch"
+    description: "All the cool experimental stuff that's in progress!"
+  # - title: "Blog"
+  - title: "Resources"
+    children:
+    - title: "About"
+      url: /about
+    - title: "Contribute"
+      url: /contribute    
