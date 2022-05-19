@@ -30,7 +30,7 @@ github_username:  hungelabs
 search: true
 og_image: /assets/images/SproDarkBKGSmall.png
 # theme: minimal-mistakes-jekyll
-remote_theme: "mmistakes/minimal-mistakes
+remote_theme: "mmistakes/minimal-mistakes"
 
 # Defaults
 defaults:
