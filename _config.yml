@@ -23,7 +23,7 @@ email: tesseraskye@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   An open-source and colaboratively written specialty coffee wiki built with love by the community of James Hoffmann's discord.
 baseurl: ""
-url: "hungelabs.github.io"
+url: "https://hungelabs.github.io"
 repository: "hungelabs/hungelabs.github.io"
 logo: "/assets/images/SproTransHigh.png"
 github_username:  hungelabs
