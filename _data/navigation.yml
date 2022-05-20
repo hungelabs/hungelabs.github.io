@@ -1,17 +1,14 @@
 # main links
 main:
   - title: "Getting Started"
-    url: /getting-started
+    url: /wiki/knowledgebase/guides/getting-started
   - title: "Equipment"
-    description: "Tier lists, maintenence, discussion."
+    url: /wiki/meta/archives/equipment
+    description: "Gear, Tier lists, maintenence, discussion."
   - title: "Knowledgebase"
+    url: /wiki/meta/archives/knowledgebase
     description: "Guides, writeups, anything good to know."
-  - title: "Reaserch"
-    description: "All the cool experimental stuff that's in progress!"
   # - title: "Blog"
-  - title: "Resources"
-    children:
-    - title: "About"
-      url: /about
-    - title: "Contribute"
-      url: /contribute    
+  - title: "Meta"
+    description: "Anything to do with the wiki, community, etc"
+    url: /wiki/meta/archives/meta

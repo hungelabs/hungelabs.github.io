@@ -32,10 +32,6 @@ og_image: /assets/images/SproDarkBKGSmall.png
 # theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes"
 
-# Defaults
-defaults:
-  #
-
 # Build settings
 
 minimal_mistakes_skin: "dark"
@@ -44,22 +40,22 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+#Includes
+include: ["wiki"]
+
+# DEFAULTS N SHIT!
+defaults:
+  #blog posts n shit
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: "single"
+  #wiki pages
+  - scope:
+      path: "wiki/*/*/*"
+      type: pages
+    values:
+      layout: single
+
+  #posts
