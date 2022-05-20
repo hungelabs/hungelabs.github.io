@@ -51,6 +51,7 @@ defaults:
       type: posts
     values:
       layout: "single"
+      show_date: true
   #wiki pages
   - scope:
       path: "wiki/*/*/*"
