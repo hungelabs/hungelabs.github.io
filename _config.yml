@@ -40,22 +40,38 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 
-#Includes
-include: ["wiki"]
+###
+#COLLECTIONS
+###
+collections_dir: wiki
+collections:
+  knowledgebase:
+    output: true
+  equipment:
+    output: true
 
 # DEFAULTS N SHIT!
 defaults:
   #blog posts n shit
   - scope:
-      path: "_posts"
-      type: posts
+      path: ""
+      type: "posts"
     values:
       layout: "single"
       show_date: true
-  #wiki pages
   - scope:
-      path: "wiki/*/*/*"
-      type: pages
+      path: ""
+      type: "knowledgebase"
+    values:
+      layout: single
+  - scope:
+      path: ""
+      type: "equipment"
+    values:
+      layout: single
+  - scope:
+      path: ""
+      type: "meta"
     values:
       layout: single
 

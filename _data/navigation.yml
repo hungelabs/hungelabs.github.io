@@ -1,14 +1,14 @@
 # main links
 main:
   - title: "Getting Started"
-    url: /wiki/knowledgebase/guides/getting-started
+    url: /knowledgebase/guides/getting-started
   - title: "Equipment"
-    url: /wiki/meta/archives/equipment
+    url: /meta/archives/equipment
     description: "Gear, Tier lists, maintenence, discussion."
   - title: "Knowledgebase"
-    url: /wiki/meta/archives/knowledgebase
+    url: /meta/archives/knowledgebase
     description: "Guides, writeups, anything good to know."
   # - title: "Blog"
   - title: "Meta"
     description: "Anything to do with the wiki, community, etc"
-    url: /wiki/meta/archives/meta
+    url: /meta/archives/meta
