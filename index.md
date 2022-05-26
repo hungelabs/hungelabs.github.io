@@ -11,9 +11,9 @@ If you're a weird coffee person, you're probably in the right place. This wiki w
 {: style="text-align: center;"}
 <!-- ***Wherever you are on your coffee journey, we're glad to have you!*** -->
 <!-- {: style="text-align: center;"} -->
-If you're new to the whole specialty thing, we have an awesome [Getting Started](/entryguide) guide that can help you figure out what kind of coffee makes you the most excited.
+If you're new to the whole specialty thing, we have an awesome [Getting Started](/knowledgebase/guides/getting-started) guide that can help you figure out what kind of coffee makes you the most excited.
 {: style="text-align: center;"}
-If you've got a great idea (or if you saw a typo!) and you'd like to help this wiki grow, head over to our [Contribution](/contribute) page!
+If you've got a great idea (or if you saw a typo!) and you'd like to help this wiki grow, head over to our [Contribution](/meta/orphaned/contribute) page!
 {: style="text-align: center;"}
  
 
