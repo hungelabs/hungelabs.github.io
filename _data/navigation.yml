@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "Getting Started"
-    url: /knowledgebase/guides/getting-started-intro
+    url: /knowledgebase/guide-beginners/getting-started-1-intro
   - title: "Equipment"
     url: /meta/archives/equipment
     description: "Gear, Tier lists, maintenence, discussion."
