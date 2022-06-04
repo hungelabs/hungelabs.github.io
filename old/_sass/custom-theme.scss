@@ -1,0 +1,32 @@
+// restyling
+#page-tagline {
+    font-style: italic;
+}
+// customs
+.divider {
+    margin: auto;
+    width: 20vw;
+    margin-bottom: 40px;
+    border-bottom: 1px solid grey;
+}
+
+.text-center {
+    text-align: center;
+    }
+
+.content-center {
+    margin:auto;
+}
+
+.mx-width-20 {
+    max-width: 20vw;
+}
+.mx-width-40 {
+    max-width: 40vw;
+}
+.mx-width-60 {
+    max-width: 60vw;
+}
+.mx-width-80 {
+    max-width: 80vw;
+}
