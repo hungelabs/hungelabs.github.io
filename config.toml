@@ -1,7 +1,7 @@
 baseURL = 'https://hungelabs.github.io'
 languageCode = 'en-us'
-title = 'Hunge Labs'
-theme = "ananke"
+title = "Hunge Labs"
+theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
 defaultcontentlanguage = "en"
 
 [taxonomies]
@@ -12,7 +12,7 @@ defaultcontentlanguage = "en"
 [params]
     GitHubUser = "HungeLabs"
     keywords = "coffee,wiki"
-    favicon_32 = "static/images/favicon.ico"    
+    favicon = "/images/favicon.ico"    
 [[menu.main]]
     name = "Getting Started"
     weight = 1
