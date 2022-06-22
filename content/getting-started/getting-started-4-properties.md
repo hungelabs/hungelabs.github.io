@@ -3,7 +3,7 @@ title: "Getting Started with Specialty Coffee - Pt. 4"
 description: "A confusion of language"
 slug: "properties"
 date: 2022-06-04T00:42:32-07:00
-draft: true
+draft: false
 authors: ["Hunge Labs"]
 tags: ["getting started"]
 categories: ["getting started", "wiki"]

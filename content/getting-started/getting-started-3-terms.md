@@ -3,7 +3,7 @@ title: "Getting Started with Specialty Coffee - Pt. 3"
 description: "Talking about flavor"
 slug: "terms"
 date: 2022-06-04T00:42:32-07:00
-draft: true
+draft: false
 authors: ["Hunge Labs"]
 tags: ["getting started"]
 categories: ["getting started", "wiki"]
