@@ -16,4 +16,4 @@ Now using Hugo!
 1. ???
 1. Profit
 
-Oh also fix the broken image links.
+~~Oh also fix the broken image links.~~

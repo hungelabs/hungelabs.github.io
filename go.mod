@@ -1,4 +1,4 @@
-module github.com/eng-jole/hungelabs.github.io
+module github.com/hungelabs/hungelabs.github.io
 
 go 1.18
 
