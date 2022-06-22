@@ -1,0 +1,43 @@
+baseURL = 'https://hungelabs.github.io'
+languageCode = 'en-us'
+title = "Hunge Labs"
+theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
+defaultcontentlanguage = "en"
+
+[taxonomies]
+  category = 'categories'
+  series = 'series'
+  tag = 'tags'
+  authors = "authors"
+[params]
+    GitHubUser = "HungeLabs"
+    keywords = "coffee,wiki"
+    favicon = "/images/favicon.ico"    
+[[menu.main]]
+    name = "Getting Started"
+    weight = 1
+    url = "/getting-started"
+[[menu.main]]
+    name = "Equipment"
+    weight = 1
+    url = "/equipment"
+[[menu.main]]
+    name = "Knowledgebase"
+    weight = 1
+    url = "/wiki"
+[[menu.main]]
+    name = "About"
+    weight = 1
+    url = "/about/"
+[[menu.main]]
+    name = "Contributing"
+    weight = 1
+    url = "/contributing/"
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url = "/posts/"
+[[menu.main]]
+    name = "Updates"
+    weight = 1
+    url = "/meta"                                
