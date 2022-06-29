@@ -11,11 +11,10 @@ on:
         - synchronize
         - closed
 
-concurrency: preview-${{ github.ref }}
-
 jobs:
   deploy-preview:
     runs_on: ubuntu-20.04
+    concurrency: preview-${{ github.ref }}
     steps:
       - name: Checkout
         uses: actions/checkout@v2
