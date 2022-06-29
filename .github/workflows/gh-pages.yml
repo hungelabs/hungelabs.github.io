@@ -1,4 +1,4 @@
-name: github pages
+name: Publish Site
 
 permissions:
   contents: write
@@ -9,7 +9,8 @@ on:
       - main  # Set a branch to deploy
 
 jobs:
-  deploy:
+  deploy-prod:
+    concurrency: ci-${{ github.ref }}
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
@@ -26,10 +27,11 @@ jobs:
       - name: Build
         run: hugo --minify
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Deploy to Prod
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
-          user_name: 'github-actions[bot]'
-          user_email: 'github-actions[bot]@users.noreply.github.com'
+          folder: ./public
+          git-config-name: 'github-actions[bot]'
+          git-config-email: 'github-actions[bot]@users.noreply.github.com'
+          force: false
+          clean-exclude: preview
