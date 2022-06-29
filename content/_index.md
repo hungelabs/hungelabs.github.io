@@ -4,7 +4,7 @@ date: 2022-06-04T01:25:52-07:00
 draft: false
 ---
 
-## Hi there!
+## Hi there! This should show up in the preview
 
 If you're a weird coffee person, you're probably in the right place. This wiki was created to serve as a hub for all things coffee, from entry-level machine shootouts to custom water.
 
