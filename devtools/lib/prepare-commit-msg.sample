@@ -1,0 +1,15 @@
+#!/bin/sh
+
+COMMIT_MSG_FILE=$1
+COMMIT_SOURCE=$2
+SHA1=$3
+
+ref=$(git rev-parse --abrev-ref HEAD)
+
+if [[ $ref =~ ^.*((issue[0-9]+)(-[A-Za-z]+)+).* ]]
+then
+        issue_no=$(echo "$ref" | sed 's|^[^0-9]*\([0-9]\+\).*|\1|')
+        msg=$(cat "$COMMIT_MSG_FILE")
+        echo "#${issue_no}: " > "$COMMIT_MSG_FILE"
+        echo "$msg" >> "$COMMIT_MSG_FILE"
+fi
